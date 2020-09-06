@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="40dp"
+    tools:context=".activities.SelectRegionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Your Region"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tv_europe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EUROPE"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/tv_north_america"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="NORTH AMERICA"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/tv_asia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:text="ASIA"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

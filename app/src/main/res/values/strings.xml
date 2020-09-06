@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="quitGameDialogMessage">DO YOU WANT TO EXIT?</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="30dp"
+    tools:context=".activities.CongratulationActivity">
+
+
+    <LinearLayout
+        android:id="@+id/kj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Congratulations"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tv_next_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOVE TO NEXT LEVEL"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/tv_main_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="RETURN TO MAIN MENU"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/tv_quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:text="QUIT GAME"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
